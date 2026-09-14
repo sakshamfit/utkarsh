@@ -1,0 +1,16 @@
+{
+  "name": "gireesh-portfolio",
+  "private": true,
+  "version": "1.1.0",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "build": "node scripts/build.js",
+    "dev": "node scripts/build.js && node scripts/dev.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "libphonenumber-js": "1.13.13"
+  }
+}
