@@ -1,6 +1,6 @@
-# Gireesh portfolio
+# Utkarsh portfolio
 
-Orange-and-black portfolio for Gireesh, UX/UI Product Designer in France. The existing portrait, entrance animation, contact section, and capabilities are preserved. The hero is smaller and quieter, followed by a short About Me section.
+Orange-and-black portfolio for Utkarsh, UX/UI Product Designer in France. The existing portrait, entrance animation, contact section, and capabilities are preserved. The hero is smaller and quieter, followed by a short About Me section.
 
 ## Local development and Vercel
 
@@ -27,6 +27,6 @@ Until enabled, the endpoint returns an honest setup error without sending data t
 
 The recipient is fixed on the server. No credentials or visitor details are stored in the repository. The endpoint includes a honeypot, same-origin checks, request size limits, and a best-effort in-memory throttle and retry cache. These reset across serverless instances; stronger distributed spam protection can be added if traffic requires it. FormSubmit may retain submissions for 30 days under its service policy.
 
-This is a call enquiry, not an automatic calendar reservation. Gireesh confirms the time and shares the Google Meet link by email.
+This is a call enquiry, not an automatic calendar reservation. Utkarsh confirms the time and shares the Google Meet link by email.
 
 Provider reference: https://formsubmit.co/documentation
