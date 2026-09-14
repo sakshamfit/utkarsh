@@ -2,8 +2,8 @@
 const { createHash } = require('node:crypto');
 const { validate } = require('../validation.js');
 
-const RECIPIENT = 'gireeshuiux@gmail.com';
-const SITE = 'https://reddy-gireesh3.vercel.app';
+const RECIPIENT = 'um426207@gmail.com';
+const SITE = 'https://utkarsh-viralbuzz.vercel.app';
 const deliveryCache = new Map();
 const requestCounts = new Map();
 const WINDOW = 15 * 60 * 1000;
@@ -96,7 +96,7 @@ async function sendEnquiry(data) {
         email: data.email,
         phone: data.phone,
         message: data.message || 'No project details provided.',
-        _subject: 'Portfolio — new call enquiry',
+        _subject: 'Viral Buzz Media — new project enquiry',
         _template: 'table',
         _captcha: 'false',
         _url: SITE + '/',
