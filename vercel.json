@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "node scripts/build.js",
+  "installCommand": "npm ci",
+  "outputDirectory": "public",
+  "functions": {
+    "api/book-call.js": { "maxDuration": 30 }
+  }
+}
