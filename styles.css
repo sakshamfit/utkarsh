@@ -557,6 +557,7 @@ body.dialog-open{position:fixed;top:var(--dialog-scroll);left:0;right:0;overflow
   margin-top: 4px;
 }
 .client-card-cta {
+  grid-column: 1 / -1;
   background: linear-gradient(150deg, #2a1a11 0%, #1a120b 60%, #13100d 100%);
   border-color: #6b3f28;
   justify-content: space-between;
