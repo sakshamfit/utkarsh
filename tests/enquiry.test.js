@@ -65,7 +65,7 @@ test('accepted delivery sends all fields to the fixed recipient and deduplicates
   let requests = 0;
   t.mock.method(global, 'fetch', async (url, options) => {
     requests++;
-    assert.equal(url, 'https://formsubmit.co/ajax/gireeshuiux@gmail.com');
+    assert.equal(url, 'https://formsubmit.co/ajax/um426207@gmail.com');
     const payload = JSON.parse(options.body);
     for (const key of ['name', 'email', 'phone', 'message']) assert.equal(payload[key], valid[key]);
     assert.equal(payload.to, undefined);

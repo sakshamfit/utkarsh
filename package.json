@@ -1,7 +1,8 @@
 {
-  "name": "gireesh-portfolio",
+  "name": "utkarsh-viralbuzz-portfolio",
   "private": true,
-  "version": "1.1.0",
+  "version": "1.0.0",
+  "description": "Portfolio for Utkarsh — Business Consultant, Brand Strategist, Founder of Viral Buzz Media (Gorakhpur, India).",
   "engines": {
     "node": "22.x"
   },
